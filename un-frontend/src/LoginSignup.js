@@ -35,7 +35,6 @@ const LoginSignup = () => {
         <div className="section">
             <div className="container">
                 <div className="full-height center-content">
-                    <div className="text-center">
                         <div className="form-switch-container text-center">
                             <h6 className="switch-tabs">
                                 <p className="form-switch" onClick={() => setIsRegistering(false)}>Login</p>
@@ -59,7 +58,7 @@ const LoginSignup = () => {
                                     {!isRegistering ? (
                                         <div className="card-front">
                                             <div className="center-wrap">
-                                                <div className="section text-center">
+                                                <div className="section2">
                                                 <h4 className="title" style={{marginBottom: '8px'}}>Login</h4>
                                                     <form onSubmit={handleLoginSubmit} className="form-group">
                                                         <input
@@ -95,8 +94,8 @@ const LoginSignup = () => {
                                     ) : (
                                         <div className="card-back">
                                             <div className="center-wrap">
-                                                <div className="section text-center">
-                                                    <h4 className="title" style={{marginBottom: '8px'}}>Register</h4>
+                                                <div className="section2 text-center">
+                                                    <h4 className="title">Register</h4>
                                                     <form onSubmit={handleRegisterSubmit} className="form-group">
                                                         <input
                                                             type="text"
@@ -145,7 +144,6 @@ const LoginSignup = () => {
                                 </div>
                             </div>
                         </div>
-                    </div>
                 </div>
             </div>
         </div>
