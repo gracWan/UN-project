@@ -1,7 +1,7 @@
 *.xml
 ../.idea/
 .venv/
-firebase/credentials.json
+api/credentials.json
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
