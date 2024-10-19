@@ -22,9 +22,9 @@ def register_user(email,password):
 
 def login_user(email,password):
     try:
+        #Implement firebase REST API for verifying password
         user = auth.get_user_by_email(email)
-        return f"User {user.uid} logged in successfully!"
-        #verify_password(password, user)
+        return {"success": True, "user": user.uid}
 
     except UserNotFoundError:
         return {"message": "Login failed: User not found"}, 404
