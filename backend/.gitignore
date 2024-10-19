@@ -70,4 +70,4 @@ instance/
 .scrapy
 
 # Sphinx documentation
-docs
+docs".idea/" 
