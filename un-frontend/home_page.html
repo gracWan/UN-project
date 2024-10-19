@@ -1,28 +1,59 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<title>ewaste</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel = "stylesheet" href = "home_page.css">
-</head>
+<html>
+    <head>
+        <link rel = "stylesheet" href = "main_style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+        <style>
+            button {
+                display: inline-block;
+                border: 1px solid black;
+                padding: 1rem 1rem;
+                vertical-align: middle;
+                font-size: 40px;
+            }
+        </style>
+        <script src = "main_script.js"></script>
 
-<body>
-    <div class = "dashboard">
-        dashboard
-        <div onclick = "map()">map</div>
-        <div>login</div>
-        <div>sign up</div>
-    </div>
-    <div>
-        Welcome to ewaste :)
-    </div>
+        
+    </head>
+    <body class = "main" onclick = "two_click()">
+        <div style="font-size: 70px; padding: 70px; ">
+            <audio autoplay>
+                <source src ="areyoublind.mp3" type = "audio/mpeg">
+                <source src="areyoublind.ogg" type="audio/ogg">
+                Your browser doesnot support the audio element. 
+            </audio>
 
-    <script type = "module" src = "main.js"></script>
-    <script>
-        function map() {
-            // Specify the URL of the page you want to navigate to
-            window.location.href = "map.html";
-          }
-    </script>
-</body>
+            <div class= "skip" onclick = "skip()">Skip</div>
+
+            <br>
+            Double tap the screen if you are blind
+            <br><br>
+            <b>If you can see, click the skip button </b>
+            <div class = "display">display</div>
+        </div>
+        
+    </body>
+   
+    
+    <!--<script>
+        let blind = "no"
+        let counter = 0
+        function skip(){
+            window.location.href = "survey_ONE.html";
+        }
+
+        function two_click(){
+            counter++
+            if (counter >= 2){
+                blind = "yes"
+            }
+        }
+    </script>-->
 </html>
+
+
+
+
+
