@@ -12,12 +12,20 @@ def home():
 @app.route('/register', methods=['POST'])
 def register():
     data = request.json
+
+    if not data or "email" not in data or "password" not in data:
+        return jsonify({"error": "Missing required fields"}), 400
+
     result, status_code = register_user(data['email'], data['password'])
     return jsonify(result), status_code
 
 @app.route('/login', methods=['POST'])
 def login():
     data = request.json
+
+    if not data or "email" not in data or "password" not in data:
+        return jsonify({"error": "Missing required fields"}), 400
+
     result, status_code = login_user(data['email'], data['password'])
     return jsonify(result), status_code
 
