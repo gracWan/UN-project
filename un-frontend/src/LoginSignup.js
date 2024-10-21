@@ -32,8 +32,8 @@ const LoginSignup = () => {
     };
 
     return (
-        <div className="section">
-            <div className="container">
+        <div className="ls-section">
+            <div className="ls-container">
                 <div className="full-height center-content">
                         <div className="form-switch-container text-center">
                             <h6 className="switch-tabs">
@@ -59,7 +59,7 @@ const LoginSignup = () => {
                                         <div className="card-front">
                                             <div className="center-wrap">
                                                 <div className="section2">
-                                                <h4 className="title" style={{marginBottom: '8px'}}>Login</h4>
+                                                <h4 className="ls-title" style={{marginBottom: '8px'}}>Login</h4>
                                                     <form onSubmit={handleLoginSubmit} className="form-group">
                                                         <input
                                                             type="email"
@@ -79,7 +79,7 @@ const LoginSignup = () => {
                                                             onChange={handleLoginChange}
                                                             required
                                                         />
-                                                        <button className="btn" type="submit">
+                                                        <button className="ls-btn" type="submit">
                                                             Submit
                                                         </button>
                                                     </form>
@@ -95,7 +95,7 @@ const LoginSignup = () => {
                                         <div className="card-back">
                                             <div className="center-wrap">
                                                 <div className="section2 text-center">
-                                                    <h4 className="title">Register</h4>
+                                                    <h4 className="ls-title">Register</h4>
                                                     <form onSubmit={handleRegisterSubmit} className="form-group">
                                                         <input
                                                             type="text"
@@ -133,7 +133,7 @@ const LoginSignup = () => {
                                                             onChange={handleRegisterChange}
                                                             required
                                                         />
-                                                        <button className="btn" type="submit">
+                                                        <button className="ls-btn" type="submit">
                                                             Submit
                                                         </button>
                                                     </form>

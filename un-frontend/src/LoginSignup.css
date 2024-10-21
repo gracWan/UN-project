@@ -3,20 +3,20 @@
 
 
 
-.section {
+.ls-section {
     background-image: url('./images/ewaste-center.webp');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
-.section::before {
+.ls-section::before {
     content: '';
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     background: rgba(0, 0, 0, 0.6);
     z-index: 1;
 }
@@ -73,7 +73,7 @@ h6 span {
     font-weight: 700;
 }
 
-.section .container {
+.ls-section .ls-container {
     position: relative;
     width: 100%;
     display: flex;
@@ -84,7 +84,7 @@ h6 span {
 
 
 
-.section .container > * {
+.ls-section .ls-container > * {
     position: relative;
     z-index: 2;
 }
@@ -158,7 +158,7 @@ h6 span {
     transition: all 600ms ease-out;
 }
 
-.title {
+.ls-title {
     color: #DBE2EF;
 }
 
@@ -238,7 +238,7 @@ h6 span {
     color: black;
 }
 
-.btn {
+.ls-btn {
     border-radius: 4px;
     height: 44px;
     font-size: 13px;
@@ -259,14 +259,14 @@ h6 span {
     font-family: 'Poppins';
 }
 
-.btn:active,
-.btn:focus {
+.ls-btn:active,
+.ls-btn:focus {
     background-color: #102770;
     color: #F9F7F7;
     box-shadow: 0 8px 24px 0 rgba(16, 39, 112, .2);
 }
 
-.btn:hover {
+.ls-btn:hover {
     background-color: #112D4E;
     color: #ffeba7;
     box-shadow: 0 8px 24px 0 rgba(16, 39, 112, .2);

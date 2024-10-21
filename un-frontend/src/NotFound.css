@@ -1,0 +1,52 @@
+.nf-container {
+    font-family: 'Poppins';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    background-color: #DBE2EF;
+    padding: 0 20px;
+}
+
+.nf-title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #2E7D32;
+}
+
+.nf-message {
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+}
+
+.nf-highlight {
+    color: #E53935;
+    font-weight: bold;
+}
+
+.nf-actions {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 1.5rem;
+}
+
+.nf-link {
+    text-decoration: none;
+    color: #fff;
+    background-color: #2E7D32;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.nf-link:hover {
+    background-color: #1B5E20;
+}
+
+.nf-note {
+    font-size: 1rem;
+    color: #666;
+    max-width: 500px;
+}
