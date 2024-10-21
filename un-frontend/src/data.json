@@ -1,0 +1,186 @@
+[
+    {
+        "name": "Electronic Recyclers International",
+        "address": "1931 N 20th Ave, Phoenix, AZ 85009",
+        "phone": "(866) 603-0525",
+        "latitude": 33.470772,
+        "longitude": -112.100276,
+        "description": "A leading provider of electronic recycling services, offering safe and environmentally friendly solutions for recycling old electronics in the Phoenix area."
+    },
+    {
+        "name": "Green Chip Recycling",
+        "address": "3299 S 24th Ave, Phoenix, AZ 85009",
+        "phone": "(602) 256-9728",
+        "latitude": 33.424829,
+        "longitude": -112.116888,
+        "description": "Specializes in responsible e-waste recycling, ensuring that electronics are processed safely and efficiently to minimize environmental impact."
+    },
+    {
+        "name": "E-Waste Recycling",
+        "address": "2560 South White Mountain Road, Show Low, AZ 85901",
+        "phone": "(928) 537-3511",
+        "latitude": 34.223777,
+        "longitude": -110.028692,
+        "description": "A local recycling center dedicated to managing electronic waste with a focus on sustainability and community service."
+    },
+    {
+        "name": "All Green Electronics Recycling",
+        "address": "1655 2nd St, San Francisco, CA 94158",
+        "phone": "(800) 780-0347",
+        "latitude": 37.769174,
+        "longitude": -122.388617,
+        "description": "Offers nationwide recycling solutions for electronics, including secure data destruction and e-waste recycling services in the San Francisco area."
+    },
+    {
+        "name": "TechWaste Recycling",
+        "address": "5150 W 145th St, Hawthorne, CA 90250",
+        "phone": "(310) 530-8300",
+        "latitude": 33.899382,
+        "longitude": -118.366913,
+        "description": "A certified recycler that provides convenient and compliant disposal options for electronic devices, ensuring proper handling of hazardous materials."
+    },
+    {
+        "name": "E-Waste Collection Center",
+        "address": "1180 N San Fernando Blvd, Burbank, CA 91504",
+        "phone": "(818) 840-2000",
+        "latitude": 34.191904,
+        "longitude": -118.319351,
+        "description": "A drop-off location for electronics recycling, committed to helping residents safely dispose of their e-waste."
+    },
+    {
+        "name": "Eco-Collection Center",
+        "address": "3025 E 14th St, San Leandro, CA 94577",
+        "phone": "(510) 577-6083",
+        "latitude": 37.724926,
+        "longitude": -122.156076,
+        "description": "A center dedicated to recycling and managing electronic waste, promoting eco-friendly practices in the San Leandro area."
+    },
+    {
+        "name": "WeRecycle!",
+        "address": "745 N 5th Ave, Phoenix, AZ 85003",
+        "phone": "(602) 256-7999",
+        "latitude": 33.454503,
+        "longitude": -112.079392,
+        "description": "Provides safe and efficient recycling services for electronic devices, helping to reduce e-waste in the Phoenix community."
+    },
+    {
+        "name": "Computer Recycling Center",
+        "address": "3414 W. 20th St., Los Angeles, CA 90018",
+        "phone": "(323) 932-9100",
+        "latitude": 34.040713,
+        "longitude": -118.331931,
+        "description": "Specializes in the recycling and refurbishment of computers and electronics, ensuring devices are properly recycled or reused."
+    },
+    {
+        "name": "Wired Recycling",
+        "address": "851 E. 4th St., Los Angeles, CA 90013",
+        "phone": "(213) 477-1477",
+        "latitude": 34.045007,
+        "longitude": -118.234726,
+        "description": "A trusted e-waste recycling center that focuses on the proper disposal of electronic waste in downtown Los Angeles."
+    },
+    {
+        "name": "E-Waste Center",
+        "address": "1520 W. San Fernando Rd., Los Angeles, CA 90065",
+        "phone": "(323) 543-2384",
+        "latitude": 34.103065,
+        "longitude": -118.233046,
+        "description": "Offers convenient drop-off services for a wide range of electronic devices, helping to keep e-waste out of landfills."
+    },
+    {
+        "name": "eWaste 4 Good",
+        "address": "1350 S. La Brea Ave., Los Angeles, CA 90019",
+        "phone": "(310) 446-1770",
+        "latitude": 34.049008,
+        "longitude": -118.344109,
+        "description": "Provides e-waste collection services with a focus on giving back to the community through charitable recycling programs."
+    },
+    {
+        "name": "ECO-Cycle",
+        "address": "6400 Arapahoe Rd, Boulder, CO 80303",
+        "phone": "(303) 444-6634",
+        "latitude": 40.014985,
+        "longitude": -105.220379,
+        "description": "A long-standing eco-conscious recycling center offering services for e-waste disposal and sustainable recycling practices in Boulder."
+    },
+    {
+        "name": "The Green Initiative",
+        "address": "2870 E 30th Ave, Denver, CO 80205",
+        "phone": "(720) 722-0180",
+        "latitude": 39.758253,
+        "longitude": -104.953678,
+        "description": "An organization committed to promoting green practices, including responsible e-waste recycling and community education in Denver."
+    },
+    {
+        "name": "Sustainable Recycling",
+        "address": "1768 W 40th Ave, Denver, CO 80211",
+        "phone": "(303) 964-2033",
+        "latitude": 39.773762,
+        "longitude": -105.012195,
+        "description": "Provides recycling solutions with a focus on environmental sustainability, accepting a variety of electronic devices for safe disposal."
+    },
+    {
+        "name": "Recycling Center",
+        "address": "3600 S Broadway, Englewood, CO 80113",
+        "phone": "(303) 762-1340",
+        "latitude": 39.652008,
+        "longitude": -104.987598,
+        "description": "Offers services for recycling electronics and other materials, supporting the community in reducing waste and preserving the environment."
+    },
+    {
+        "name": "Recycling for Charity",
+        "address": "3025 S Parker Rd, Aurora, CO 80014",
+        "phone": "(303) 690-1686",
+        "latitude": 39.662762,
+        "longitude": -104.831919,
+        "description": "Aims to make a positive impact by recycling electronics while supporting charitable causes through its programs."
+    },
+    {
+        "name": "R3 Recycling",
+        "address": "1580 S. 10th St., San Jose, CA 95112",
+        "phone": "(408) 288-2020",
+        "latitude": 37.323001,
+        "longitude": -121.886354,
+        "description": "A reliable provider of electronics recycling services, offering safe and eco-friendly solutions for businesses and residents."
+    },
+    {
+        "name": "Global e-Waste Solutions",
+        "address": "8821 N. Florida Ave, Tampa, FL 33604",
+        "phone": "(813) 975-0768",
+        "latitude": 28.033117,
+        "longitude": -82.459274,
+        "description": "Provides secure and compliant recycling solutions for electronic waste, helping to protect the environment in Tampa."
+    },
+    {
+        "name": "E-Waste Management",
+        "address": "2424 N. University Dr., Coral Springs, FL 33065",
+        "phone": "(954) 755-6000",
+        "latitude": 26.263441,
+        "longitude": -80.249772,
+        "description": "Offers comprehensive e-waste recycling services, specializing in the safe disposal of electronics in Coral Springs."
+    },
+    {
+        "name": "Goodwill Industries",
+        "address": "1015 N H St, Lompoc, CA 93436",
+        "phone": "(805) 735-3340",
+        "latitude": 34.653611,
+        "longitude": -120.457222,
+        "description": "Accepts donations of electronics for recycling or repurposing, helping to reduce waste while supporting Goodwill's charitable initiatives."
+    },
+    {
+        "name": "Green Citizen",
+        "address": "30 W 20th Ave, San Mateo, CA 94403",
+        "phone": "(650) 793-7224",
+        "latitude": 37.548269,
+        "longitude": -122.313721,
+        "description": "Focuses on promoting green living and provides easy, responsible recycling for electronics in the San Mateo area."
+    },
+    {
+        "name": "Eco-Cycle",
+        "address": "6400 Arapahoe Rd, Boulder, CO 80303",
+        "phone": "(303) 444-6634",
+        "latitude": 40.014985,
+        "longitude": -105.220379,
+        "description": "Boulder’s leading recycling center for electronic waste, providing solutions that benefit both the community and the environment."
+    }
+]

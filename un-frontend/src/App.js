@@ -5,10 +5,9 @@ import RoutesList from './RoutesList';
 function App() {
   return (
     <div className="App">
-      {/* <LoginSignup /> */}
-      <UserContext.Provider >
+      {/* <UserContext.Provider > */}
         <RoutesList />
-      </UserContext.Provider>
+      {/* </UserContext.Provider> */}
     </div>
   );
 }
