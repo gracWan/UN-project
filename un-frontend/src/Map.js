@@ -11,7 +11,6 @@ const Map = () => {
 
     useEffect(() => {
         // Get user location if location sharing. If not, defaults to NYC
-    
         if (navigator.geolocation) {
             navigator.geolocation.getCurrentPosition(
                 (position) => {
@@ -29,6 +28,11 @@ const Map = () => {
         const initializeMap = () => {
             if (!window.H || !userLocation) {
                 return;
+            }
+
+            // Dispose of pre-existing map to prevent rendering a second map
+            if (map) {
+                map.dispose()
             }
 
             const platform = new window.H.service.Platform({
@@ -53,7 +57,7 @@ const Map = () => {
             return () => mapInstance.dispose();
         };
         // Small delay to allow scripts to load
-        const mapTimeout = setTimeout(initializeMap, 500);
+        const mapTimeout = setTimeout(initializeMap, 700);
         return () => clearTimeout(mapTimeout);
     }, [userLocation]);
 
@@ -94,6 +98,7 @@ const Map = () => {
     }, [map]);
 
     return (
+
         <div style={{ 
             width: '90%', 
             height: '400px', 
@@ -110,7 +115,9 @@ const Map = () => {
                     onClose={() => setSelectedPlace(null)} 
                 />
             )}
+
         </div>
+     
     );
 };
 
