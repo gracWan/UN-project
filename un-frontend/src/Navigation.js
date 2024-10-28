@@ -10,11 +10,11 @@ const Navigation = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="#about">About</Nav.Link>
-            <Nav.Link href="#find">Find Centers</Nav.Link>
+            <Nav.Link href="/map-demo">Find Centers</Nav.Link>
             <Nav.Link href="#resources">Resources</Nav.Link>
           </Nav>
           <Nav>
-            <Nav.Link href='#user'>User</Nav.Link>
+            <Nav.Link href='/add-center'>User</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

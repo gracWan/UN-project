@@ -16,13 +16,13 @@ const NotFoundPage = () => {
             </Row>
             <Row className="nf-actions mb-3">
                 <Col className='my-2'>
-                    <Button variant="success" as={Link} to="/" className="mx-2 nf-btn">
+                    <Button variant="success" as={Link} to="/" className="mx-2">
                         🏡 Take me home
                     </Button>
-                    <Button variant="danger" as={Link} to="/help" className="mx-2">
+                    <Button variant="danger" as={Link} to="/" className="mx-2">
                         🆘 Get help
                     </Button>
-                    <Button variant="info" as={Link} to="/learn-recycling" className="mx-2">
+                    <Button variant="info" as={Link} to="/" className="mx-2">
                         ♻️ Learn about recycling
                     </Button>
                 </Col>

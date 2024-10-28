@@ -83,104 +83,184 @@
         "name": "E-Waste Center",
         "address": "1520 W. San Fernando Rd., Los Angeles, CA 90065",
         "phone": "(323) 543-2384",
-        "latitude": 34.103065,
-        "longitude": -118.233046,
+        "latitude": 34.09707,
+        "longitude": -118.2326,
         "description": "Offers convenient drop-off services for a wide range of electronic devices, helping to keep e-waste out of landfills."
     },
     {
         "name": "eWaste 4 Good",
         "address": "1350 S. La Brea Ave., Los Angeles, CA 90019",
         "phone": "(310) 446-1770",
-        "latitude": 34.049008,
-        "longitude": -118.344109,
+        "latitude": 34.04872,
+        "longitude": -118.34413,
         "description": "Provides e-waste collection services with a focus on giving back to the community through charitable recycling programs."
     },
     {
         "name": "ECO-Cycle",
         "address": "6400 Arapahoe Rd, Boulder, CO 80303",
         "phone": "(303) 444-6634",
-        "latitude": 40.014985,
-        "longitude": -105.220379,
+        "latitude": 40.01357,
+        "longitude": -105.20415,
         "description": "A long-standing eco-conscious recycling center offering services for e-waste disposal and sustainable recycling practices in Boulder."
     },
-    {
+    {     
         "name": "The Green Initiative",
         "address": "2870 E 30th Ave, Denver, CO 80205",
         "phone": "(720) 722-0180",
-        "latitude": 39.758253,
-        "longitude": -104.953678,
+        "latitude": 39.75934,
+        "longitude": -104.95388,
         "description": "An organization committed to promoting green practices, including responsible e-waste recycling and community education in Denver."
     },
     {
         "name": "Sustainable Recycling",
         "address": "1768 W 40th Ave, Denver, CO 80211",
         "phone": "(303) 964-2033",
-        "latitude": 39.773762,
-        "longitude": -105.012195,
+        "latitude": 39.77159,
+        "longitude": -105.00761,
         "description": "Provides recycling solutions with a focus on environmental sustainability, accepting a variety of electronic devices for safe disposal."
     },
     {
         "name": "Recycling Center",
         "address": "3600 S Broadway, Englewood, CO 80113",
         "phone": "(303) 762-1340",
-        "latitude": 39.652008,
-        "longitude": -104.987598,
+        "latitude": 39.65071,
+        "longitude": -104.98742,
         "description": "Offers services for recycling electronics and other materials, supporting the community in reducing waste and preserving the environment."
     },
     {
         "name": "Recycling for Charity",
         "address": "3025 S Parker Rd, Aurora, CO 80014",
         "phone": "(303) 690-1686",
-        "latitude": 39.662762,
-        "longitude": -104.831919,
+        "latitude": 39.66206,
+        "longitude": -104.86038,
         "description": "Aims to make a positive impact by recycling electronics while supporting charitable causes through its programs."
     },
     {
         "name": "R3 Recycling",
         "address": "1580 S. 10th St., San Jose, CA 95112",
         "phone": "(408) 288-2020",
-        "latitude": 37.323001,
-        "longitude": -121.886354,
+        "latitude": 37.31814,
+        "longitude": -121.86406,
         "description": "A reliable provider of electronics recycling services, offering safe and eco-friendly solutions for businesses and residents."
     },
     {
         "name": "Global e-Waste Solutions",
         "address": "8821 N. Florida Ave, Tampa, FL 33604",
         "phone": "(813) 975-0768",
-        "latitude": 28.033117,
-        "longitude": -82.459274,
+        "latitude": 28.03088,
+        "longitude": -82.45937,
         "description": "Provides secure and compliant recycling solutions for electronic waste, helping to protect the environment in Tampa."
     },
     {
         "name": "E-Waste Management",
         "address": "2424 N. University Dr., Coral Springs, FL 33065",
         "phone": "(954) 755-6000",
-        "latitude": 26.263441,
-        "longitude": -80.249772,
+        "latitude": 26.26109,
+        "longitude": -80.25024,
         "description": "Offers comprehensive e-waste recycling services, specializing in the safe disposal of electronics in Coral Springs."
     },
     {
         "name": "Goodwill Industries",
         "address": "1015 N H St, Lompoc, CA 93436",
         "phone": "(805) 735-3340",
-        "latitude": 34.653611,
-        "longitude": -120.457222,
+        "latitude": 34.65461,
+        "longitude": -120.45784,
         "description": "Accepts donations of electronics for recycling or repurposing, helping to reduce waste while supporting Goodwill's charitable initiatives."
     },
     {
         "name": "Green Citizen",
         "address": "30 W 20th Ave, San Mateo, CA 94403",
         "phone": "(650) 793-7224",
-        "latitude": 37.548269,
-        "longitude": -122.313721,
+        "latitude": 37.54837,
+        "longitude": -122.31019,
         "description": "Focuses on promoting green living and provides easy, responsible recycling for electronics in the San Mateo area."
     },
     {
         "name": "Eco-Cycle",
         "address": "6400 Arapahoe Rd, Boulder, CO 80303",
         "phone": "(303) 444-6634",
-        "latitude": 40.014985,
-        "longitude": -105.220379,
+        "latitude": 40.01357,
+        "longitude": -105.20415,
         "description": "Boulder’s leading recycling center for electronic waste, providing solutions that benefit both the community and the environment."
+    },
+    {
+        "name": "All Green Electronics Recycling",
+        "address": "15751 Roxford St, Sylmar, CA 91342",
+        "phone": "(800) 780-0347",
+        "latitude": 34.30857,
+        "longitude": -118.47548,
+        "description": "Offers secure data destruction and electronics recycling services for businesses and consumers."
+    },
+    {
+        "name": "ERI (Electronic Recyclers International)",
+        "address": "7815 N Palm Ave #140, Fresno, CA 93711",
+        "phone": "(559) 442-3969",
+        "latitude": 36.85042,
+        "longitude": -119.80877,
+        "description": "Specializes in e-waste recycling, with a focus on sustainable and secure disposal."
+    },
+    {
+        "name": "Tech Dump",
+        "address": "860 Vandalia St, St Paul, MN 55114",
+        "phone": "(763) 432-3117",
+        "latitude": 44.96714,
+        "longitude": -93.18878,
+        "description": "Provides affordable electronics recycling and refurbishing while creating job opportunities."
+    },
+    {
+        "name": "Sims Recycling Solutions",
+        "address": "1600 Harvester Rd, West Chicago, IL 60185",
+        "phone": "(630) 231-6060",
+        "latitude": 41.90166,
+        "longitude": -88.23465,
+        "description": "Global leader in e-waste recycling, offering a range of services including secure data destruction."
+    },
+    {
+        "name": "Best Buy Recycling Center",
+        "address": "825 Pilgrim Way, Green Bay, WI 54304",
+        "phone": "(920) 497-8560",
+        "latitude": 44.48151,
+        "longitude": -88.06934,
+        "description": "Accepts most electronics and large appliances for recycling."
+    },
+    {
+        "name": "Goodwill Electronics Store",
+        "address": "1944 N Tustin St, Orange, CA 92865",
+        "phone": "(714) 363-0500",
+        "latitude": 33.82044,
+        "longitude": -117.8374,
+        "description": "Accepts electronics for recycling and resale, promoting environmentally friendly practices."
+    },
+    {
+        "name": "e-End",
+        "address": "7118 Geoffrey Way #B, Frederick, MD 21704",
+        "phone": "(240) 529-1010",
+        "latitude": 39.3495,
+        "longitude": -77.41107,
+        "description": "Provides IT asset disposition and secure data destruction services."
+    },
+    {
+        "name": "Computer Recycling Center",
+        "address": "705 Reed St, Santa Clara, CA 95050",
+        "phone": "(408) 988-6351",
+        "latitude": 37.35967,
+        "longitude": -121.94554,
+        "description": "A non-profit organization that refurbishes and recycles old computers and electronics."
+    },
+    {
+        "name": "Recycle Technologies",
+        "address": "6216 Cambridge St, Minneapolis, MN 55416",
+        "phone": "(800) 969-5166",
+        "latitude": 44.93372,
+        "longitude": -93.35862,
+        "description": "Specializes in recycling electronics and shredding hard drives for secure data destruction."
+    },
+    {
+        "name": "Staples Recycling Services",
+        "address": "1701 North 13th St, Bismarck, ND 58501",
+        "phone": "(701) 255-6377",
+        "latitude": 46.82373,
+        "longitude": -100.77218,
+        "description": "Provides electronics recycling, including small items like batteries and larger office equipment."
     }
 ]
