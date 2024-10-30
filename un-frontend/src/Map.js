@@ -98,11 +98,7 @@ const Map = () => {
     }, [map]);
 
     return (
-<<<<<<< Updated upstream
 
-=======
-        <>
->>>>>>> Stashed changes
         <div style={{ 
             width: '90%', 
             height: '400px', 
@@ -121,11 +117,7 @@ const Map = () => {
             )}
 
         </div>
-<<<<<<< Updated upstream
      
-=======
-        </>
->>>>>>> Stashed changes
     );
 };
 
