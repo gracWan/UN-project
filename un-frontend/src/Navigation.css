@@ -2,7 +2,8 @@
 
 .navbar {
     background-color: #DBE2EF;
-    z-index: 2;
+    height: 55px;
+    z-index: 1000;
 }
 
 .navbar-brand {
