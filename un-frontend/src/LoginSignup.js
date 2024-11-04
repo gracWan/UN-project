@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import './LoginSignup.css';
-import { Form, Button, Container, Row, Col } from 'react-bootstrap';
+import { Form, Button, Row } from 'react-bootstrap';
+import Footer from './Footer';
 
 const LoginSignup = () => {
     const [isRegistering, setIsRegistering] = useState(false);
@@ -208,6 +209,7 @@ const LoginSignup = () => {
                     </div>
                 </div>
             </div>
+            <Footer />
         </div>
     );
 };

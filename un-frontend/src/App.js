@@ -1,8 +1,6 @@
 import './App.css';
-import { useState } from 'react';
 import UserContext from "./UserContext";
 import RoutesList from './RoutesList';
-import UseGetLatLng from './hooks/UseGetLatLng';
 
 function App() {
   return (

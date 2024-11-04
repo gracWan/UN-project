@@ -100,24 +100,24 @@ const Map = () => {
     return (
 
         <div style={{ 
-            width: '90%', 
-            height: '400px', 
-            margin: "20px",
-            position: 'relative', 
-            }} 
+            width: '100%', 
+            height: '100%', 
+            minHeight: '400px', 
+            position: 'relative',
+        }}
             id="mapContainer"
         >
             {selectedPlace && (
-                <UseShowMarkerDetails 
-                    place={selectedPlace} 
-                    show={show} 
-                    setShow={setShow} 
-                    onClose={() => setSelectedPlace(null)} 
+                <UseShowMarkerDetails
+                    place={selectedPlace}
+                    show={show}
+                    setShow={setShow}
+                    onClose={() => setSelectedPlace(null)}
                 />
             )}
 
         </div>
-     
+
     );
 };
 

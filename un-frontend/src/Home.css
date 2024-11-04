@@ -1,0 +1,131 @@
+.homepage {
+    background-color: #DBE2EF;
+    width: 100vw;
+    height: calc(100vh - 55px);
+    overflow-x: hidden;
+}
+
+.header {
+    position: relative;
+    background-color: #112D4E;
+    width: 100vw;
+    height: 400px; 
+    font-family: 'Poppins';
+}
+
+.header-photos {
+    height: 100%;
+}
+
+.header-img {
+    height: 50%;
+    width: 200px;
+    object-fit: cover;
+    border: 4px solid #DBE2EF;
+}
+
+.img1 {
+    position: absolute;
+    left: 50px;
+    top: 5%;
+}
+
+.img2 {
+    position: absolute;
+    bottom: 5%;
+    left: 250px;
+}
+
+
+.header-text h1 {
+    color: #3F72AF;
+    font-weight: 800;
+    font-size: 6em;
+    margin-top: 60px;
+}
+
+.header-text h3 {
+    color: #DBE2EF;
+}
+
+/* Media Query for Responsive Design */
+@media (max-width: 1200px) {
+    .header-photos {
+        display: none;
+    }
+}
+
+.content-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.hp-map-container {
+    padding-top: 100px;
+    width: 600px;
+    height: 400px;
+    position: relative;
+    padding-bottom: 200px;
+}
+
+.hp-info {
+    height: 400px;
+    width: 600px;
+    margin-top: 100px;
+}
+
+.hp-info .nav-tabs .nav-link.active {
+    background-color: #3F72AF;
+    color: #F9F7F7;
+}
+
+
+.hp-info .nav-tabs .nav-link {
+    border: none;
+}
+
+.hp-info .nav-tabs .nav-link:hover {
+    font-weight: 400;
+    color: #112D4E;
+}
+
+.hp-info .nav-tabs .nav-link.active:hover {
+    color: #F9F7F7;
+}
+
+.tab-content {
+    background-color: #3F72AF;
+    height: 360px;
+    font-family: 'Poppins';
+}
+
+.tab-content h2 {
+    color: #F9F7F7;
+    padding-top: 15px;
+}
+
+.tab-content p {
+    color: #F9F7F7;
+    font-size: 95%;
+}
+
+.recycle-list {
+    list-style: none;
+}
+
+.recycle-list li::before {
+    content: '♻️';
+    position: absolute;
+    left: -10px;
+    font-size: 1.2em;
+}
+
+.recycle-list li {
+    position: relative;
+    text-align: left;
+    padding-left: 25px;
+    margin-bottom: 8px;
+    color: #F9F7F7;
+}

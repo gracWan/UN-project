@@ -5,9 +5,9 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    height: 100vh;
     background-color: #DBE2EF;
     padding: 0 20px;
+    height: calc(100vh - 55px) !important;
 }
 
 .nf-title {

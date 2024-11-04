@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './NotFound.css';
+import Footer from './Footer';
 
 const NotFoundPage = () => {
     return (
@@ -10,7 +11,7 @@ const NotFoundPage = () => {
                 <Col>
                     <h1 className="nf-title">404: This Page Went Off to Be Recycled...</h1>
                     <p className="nf-message">
-                        Looks like the page you’re searching for has been <span className="nf-highlight">disposed of</span> or never quite made it to the right <span className="nf-highlight">bin</span>.<br/> But just like old gadgets, not all is lost!
+                        Looks like the page you’re searching for has been <span className="nf-highlight">disposed of</span> or never quite made it to the right <span className="nf-highlight">bin</span>.<br /> But just like old gadgets, not all is lost!
                     </p>
                 </Col>
             </Row>
@@ -34,6 +35,7 @@ const NotFoundPage = () => {
                     </p>
                 </Col>
             </Row>
+                <Footer />
         </Container>
     );
 };

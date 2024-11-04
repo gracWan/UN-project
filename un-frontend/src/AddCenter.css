@@ -3,16 +3,19 @@
 .ac-body {
     font-family: 'Poppins';
     background-color: #DBE2EF;
-    height: 95vh;
     position: relative;
-    display: flex;
     text-align: left;
+}
+.flex-cont {
+    display: flex;
+    flex-grow: 1;
 }
 
 .ac-form-container {
     flex-grow: 1;
     padding-top: 60px;
     margin-left: 10px;
+    height: calc(100vh - 55px);
 }
 
 .ac-form-container h1 {
@@ -24,7 +27,7 @@
 .style-block {
     background-color: #112D4E;
     width: 300px;
-    height: 95vh;
+    height: calc(100vh - 55px);
     position: relative;
     left: 12px;
     margin-left: 20px;
