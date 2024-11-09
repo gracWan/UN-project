@@ -36,12 +36,18 @@
     left: 250px;
 }
 
+.header-text {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
 .header-text h1 {
     color: #3F72AF;
     font-weight: 800;
     font-size: 6em;
-    margin-top: 60px;
 }
 
 .header-text h3 {
