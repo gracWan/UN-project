@@ -2,6 +2,7 @@ import { useState } from 'react';
 import './LoginSignup.css';
 import { Form, Button, Row } from 'react-bootstrap';
 import Footer from './Footer';
+import api from "./api";
 
 const LoginSignup = () => {
     const [isRegistering, setIsRegistering] = useState(false);
@@ -21,7 +22,7 @@ const LoginSignup = () => {
         setRegisterData((prevData) => ({ ...prevData, [name]: value }));
     };
 
-    const handleLoginSubmit = (e) => {
+    const handleLoginSubmit = async (e) => {
         e.preventDefault();
         const { email, password } = loginData;
         // validation
@@ -30,31 +31,71 @@ const LoginSignup = () => {
                 ...prevErrors,
                 password: "Your password can't be the same as your email.",
             }));
+            return
         } else {
             setErrorMessages((prevErrors) => ({
                 ...prevErrors,
                 password: "",
             }));
+            try {
+                // Post registration data
+                const response = await api.post('/login', { email, password });
+                console.log(response.data);
+            } catch (error) {
+                if (error.response) {
+                    setErrorMessages((prevErrors) => ({
+                        ...prevErrors,
+                        password: error.response.data.error || "Login failed",
+                    }));
+                }
+            }
         }
-        // Add submission logic here
     };
 
-    const handleRegisterSubmit = (e) => {
+    const handleRegisterSubmit = async (e) => {
         e.preventDefault();
-        const { password, confirmPassword } = registerData;
-        // validation
+        const { name, email, password, confirmPassword } = registerData;
+        // Ensure both passwords entered match
         if (password !== confirmPassword) {
             setErrorMessages((prevErrors) => ({
                 ...prevErrors,
                 confirmPassword: "Your passwords must match.",
             }));
+            return;
         } else {
             setErrorMessages((prevErrors) => ({
                 ...prevErrors,
                 confirmPassword: "",
             }));
         }
-        // Add submission logic here
+    
+        try {
+            // Post registration data
+            const response = await api.post('/register', {
+                name,
+                email,
+                password,
+                confirmPassword
+            });
+    
+            // Successful registration
+            console.log("Registration successful:", response.data);
+    
+        } catch (error) {
+            // Handle backend errors
+            if (error.response && error.response.data) {
+                setErrorMessages((prevErrors) => ({
+                    ...prevErrors,
+                    confirmPassword: error.response.data.error || "Registration failed",
+                }));
+            } else {
+                console.error("An error occurred:", error);
+                setErrorMessages((prevErrors) => ({
+                    ...prevErrors,
+                    confirmPassword: "An unexpected error occurred. Please try again.",
+                }));
+            }
+        }
     };
 
     return (
@@ -195,7 +236,7 @@ const LoginSignup = () => {
                                                             </Form.Control.Feedback>
                                                         </Form.Group>
                                                     </Row>
-                                                    
+
                                                     <Button className="ls-btn mt-2" type="submit">
                                                         Submit
                                                     </Button>
