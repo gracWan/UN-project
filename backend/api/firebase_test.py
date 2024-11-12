@@ -24,8 +24,8 @@ class TestFirebaseFunctions(unittest.TestCase):
         self.assertEqual(result["error"], "Registration failed: Email already in use")
 
     def test_login_user(self):
-        email = "johndoe@example.com"  # Use a test email that exists in your Firebase project
-        password = "securePassword123"  # The password corresponding to the email
+        email = "johndoe@example.com"
+        password = "securePassword123"
 
         # Test login user function
         result, status_code = login_user(email, password)
