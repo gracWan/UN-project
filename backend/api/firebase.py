@@ -25,7 +25,7 @@ def get_id_token(email, password):
 def register_user(name, email, password):
     try:
         try:
-            user = auth.get_user_by_email(email)
+            auth.get_user_by_email(email)
             return {"success": False, "error": "Registration failed: Email already in use"}, 409
         except auth.UserNotFoundError:
             pass  # If user doesn't exist, proceed to create a new one
@@ -41,20 +41,24 @@ def register_user(name, email, password):
     except FirebaseError as e:
         return {"success": False, "error": f"Registration failed: {str(e)}"}, 500
 
+
 def login_user(email,password):
     try:
         user = auth.get_user_by_email(email)
         id_token_result = get_id_token(email, password)
 
+        print("ID Token result:", id_token_result)
+
         if 'idToken' in id_token_result:
-            return {"success": True, "user": {
+            return {"success": True,
+            "user": {
                 "uid": user.uid,
                 "displayName": user.display_name,
                 "email": user.email,
                 "idToken": id_token_result['idToken']
             }}, 200
         else:
-            return {"success": False, "message": "Login failed: Incorrect password"}, 401
+            return {"success": False, "error": "Login failed: Incorrect password"}, 401
 
     except UserNotFoundError:
         return {"success": False, "error": "Login failed: User not found"}, 404
@@ -62,4 +66,4 @@ def login_user(email,password):
         return {"success": False, "error": str(e)}, 401
 
 if __name__ == "__main__":
-    print("Starting")
+    print('Welcome')
