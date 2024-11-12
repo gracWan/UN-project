@@ -22,20 +22,6 @@ def get_id_token(email, password):
         return {"error": "Login failed: Incorrect credentials"}, 401
     return response.json()
 
-'''def register_user(name, email, password):
-    try:
-        user = auth.create_user(
-            display_name=name,
-            email=email,
-            password=password
-        )
-        return {"success": True, "message": f"User {user.uid} created successfully!", "uid": user.uid}, 201
-
-    except auth.EmailAlreadyExistsError:
-        return {"success": False, "error": "Registration failed: Email already in use"}, 409
-    except FirebaseError as e:
-        return {"success": False, "error": f"Registration failed: {str(e)}"}, 500'''
-
 def register_user(name, email, password):
     try:
         try:
